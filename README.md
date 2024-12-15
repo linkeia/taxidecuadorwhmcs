@@ -13,3 +13,12 @@ Por defecto, el HOOK se ejecuta únicamente cuando el usuario no ha iniciado ses
 
 # Personalización:
 Si deseas que el HOOK solicite y valide siempre el campo TAXID (independientemente del estado de sesión), puedes eliminar 3 líneas de código específicas del HOOK. De este modo, la validación será obligatoria cuando la dirección de facturación corresponda a Ecuador.
+
+# Traducciones de Mensajes de Error para WHMCS
+Se proporcionan las traducciones de los mensajes de error recomendados para incluir en los archivos overrides del idioma de WHMCS. Las traducciones disponibles son:
+
+- Español
+- Inglés
+- Portugués
+
+Pueden ser usadas en cualquier idioma con el remplazo de los valores en el correcto archivo de idioma deseado.
