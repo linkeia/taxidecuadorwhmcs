@@ -1,4 +1,4 @@
-# HOOK de Validación de Cédula y RUC para WHMCS 8.11.2
+# HOOK de Validación de Cédula y RUC de Ecuador para WHMCS 8.11.2
 
 Este HOOK valida el número de cédula o RUC de Ecuador en el campo TAXID, únicamente cuando el país de dirección del usuario es Ecuador. Es compatible con los temas Lagom 2.3.0, TwentyOne y Six.
 
