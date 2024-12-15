@@ -1,0 +1,42 @@
+
+//////////
+
+////////// Para agregar estas líneas de código a los archivos de idioma en WHMCS 8.11.2 y evitar que se sobrescriban durante futuras actualizaciones, sigue estos pasos:
+
+////////// Accede al directorio lang de tu instalación de WHMCS.
+////////// Crea una nueva carpeta llamada overrides dentro del directorio lang.
+////////// Copia los archivos de idioma originales (spanish.php, english.php, portuguese-br.php y portuguese-pt.php) a esta nueva carpeta overrides.
+////////// Abre los archivos copiados en el directorio overrides y pega las siguientes líneas de código según el idioma correspondiente:
+
+
+//////////En: /lang/overrides/spanish.php:
+
+$_LANG['taxiderror.empty'] = "El campo de identificación fiscal no puede estar vacío.";
+$_LANG['taxiderror.invalidcedula'] = "El número de cédula ecuatoriana no es válido.";
+$_LANG['taxiderror.invalidruc'] = "El número de RUC de Ecuador no es válido.";
+$_LANG['taxiderror.invalidformat'] = "El formato del número de identificación fiscal no es válido.";
+
+//////////En: /lang/overrides/english.php:
+
+$_LANG['taxiderror.empty'] = "The tax ID field cannot be empty.";
+$_LANG['taxiderror.invalidcedula'] = "The Ecuadorian ID number is not valid.";
+$_LANG['taxiderror.invalidruc'] = "The Ecuadorian RUC number is not valid.";
+$_LANG['taxiderror.invalidformat'] = "The tax ID format is not valid.";
+
+//////////En: /lang/overrides/potuguese-br.php:
+
+$_LANG['taxiderror.empty'] = "O campo de identificação fiscal não pode estar vazio.";
+$_LANG['taxiderror.invalidcedula'] = "O número de cédula equatoriana não é válido.";
+$_LANG['taxiderror.invalidruc'] = "O número de RUC do Equador não é válido.";
+$_LANG['taxiderror.invalidformat'] = "O formato do número de identificação fiscal não é válido.";
+
+//////////En: /lang/overrides/potuguese-pt.php:
+
+$_LANG['taxiderror.empty'] = "O campo de identificação fiscal não pode estar vazio.";
+$_LANG['taxiderror.invalidcedula'] = "O número de cédula equatoriana não é válido.";
+$_LANG['taxiderror.invalidruc'] = "O número de RUC do Equador não é válido.";
+$_LANG['taxiderror.invalidformat'] = "O formato do número de identificação fiscal não é válido.";
+
+
+//////////Nota: Puedes hacer lo mismo para cada idioma deseado remplazando su correcta traducción.
+
